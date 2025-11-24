@@ -42,7 +42,6 @@ for palavra, quantidade in frequencia_das_palavras.items():
 maior_frequencia = max(frequencia_das_palavras.values())
 
 # Encontrar TODAS as palavras que possuem essa maior frequência
-#    Isso permite lidar com empates
 palavras_mais_frequentes = []
 
 for palavra, quantidade in frequencia_das_palavras.items():
