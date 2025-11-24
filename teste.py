@@ -1,0 +1,22 @@
+lista = ['palavra-cruzada', '    texto com    espaços    ']
+
+print(lista[0][4:9])
+print(len(lista[0]))
+print(lista[0].count('a'))
+print(lista[0].count('a',0,-1))
+print(lista[0].find('palavra'))
+print(lista[0].find('a'))
+print('cruzada' in lista[0])
+print(lista[0].replace('cruzada', 'misteriosa'))
+print(lista[0])
+print(lista)
+print(len(lista))
+print(len(lista[0]))
+print(lista[0].upper())
+print(lista[0].lower())
+print(lista[0].capitalize())
+print(lista[0].title())
+print(lista[1].strip())
+print(lista[1].split())
+print('-'.join(lista[1]))
+
