@@ -2,7 +2,7 @@ import random
 
 lista = [random.randint(-10, 10) for _ in range(20)]
 
-def soma_contigua_corrigida(lista):
+def soma_contigua(lista):
     if len(lista) == 0:
         return 0
     
@@ -23,4 +23,4 @@ def soma_contigua_corrigida(lista):
     return maior_soma
 
 print(lista)
-print(soma_contigua_corrigida(lista))
+print(soma_contigua(lista))
